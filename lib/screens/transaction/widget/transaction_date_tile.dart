@@ -20,7 +20,7 @@ class TransactionDateTile extends StatelessWidget {
           borderRadius: BorderRadius.circular(13),
         ),
         child: Text(
-          DateFormat('MMMM dd y').format(date),
+          DateFormat('MMMM dd, y').format(date),
           style: const TextStyle(
             color: CustomColor.greyColor,
             fontSize: 10,

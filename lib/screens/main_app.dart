@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:hubtel/theme/custom_color.dart';
 
 import 'home/home_screen.dart';
-import 'momo/momo_screen.dart';
 import 'schedule/schedule_screen.dart';
+import 'send/send_screen.dart';
 import 'transaction/transaction_screen.dart';
 
 class MainApp extends StatefulWidget {
