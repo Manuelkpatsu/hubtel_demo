@@ -11,4 +11,6 @@ class CustomColor {
   static const Color phoneTextColor = Color(0xff9EADBA);
   static const Color unselectedColor = Color(0xffCBCBCB);
   static const Color yellowColor = Color(0xffFEE066);
+  static const Color iconColor = Color(0xff7978DE);
+  static const Color iconBackgroundColor = Color(0xffBCBBEE);
 }

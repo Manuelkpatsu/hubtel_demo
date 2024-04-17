@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:hubtel/theme/custom_color.dart';
 
-import 'history/history_screen.dart';
 import 'home/home_screen.dart';
 import 'momo/momo_screen.dart';
 import 'schedule/schedule_screen.dart';
+import 'transaction/transaction_screen.dart';
 
 class MainApp extends StatefulWidget {
   const MainApp({super.key});
@@ -18,7 +18,7 @@ class _MainAppState extends State<MainApp> {
   final List<Widget> _screens = [
     const HomeScreen(),
     const MomoScreen(),
-    const HistoryScreen(),
+    const TransactionScreen(),
     const ScheduleScreen(),
   ];
   final List<BottomNavigationBarItem> _navBarItems = [
@@ -27,11 +27,11 @@ class _MainAppState extends State<MainApp> {
       label: 'Home',
     ),
     const BottomNavigationBarItem(
-      icon: Icon(Icons.list_alt_outlined),
-      label: 'Momo',
+      icon: Icon(Icons.phone_android_rounded),
+      label: 'Send',
     ),
     const BottomNavigationBarItem(
-      icon: Icon(Icons.history),
+      icon: Icon(Icons.ad_units_outlined),
       label: 'History',
     ),
     const BottomNavigationBarItem(
@@ -59,8 +59,8 @@ class _MainAppState extends State<MainApp> {
           });
         },
         items: _navBarItems,
-        showSelectedLabels: false,
-        showUnselectedLabels: false,
+        showSelectedLabels: true,
+        showUnselectedLabels: true,
         selectedLabelStyle: const TextStyle(
           fontWeight: FontWeight.w400,
           height: 1.5,
