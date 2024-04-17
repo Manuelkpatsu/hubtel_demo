@@ -1,6 +1,6 @@
 # A Hubtel Demo App UI
 
-A shopping and marketplace app UI built with flutter.
+A mobile app use to find and buy anything.
 
 A [@nuel_nartey](https://twitter.com/nuel_nartey) Flutter Showcase project.
 
