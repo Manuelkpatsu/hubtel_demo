@@ -17,7 +17,7 @@ class _MainAppState extends State<MainApp> {
   int _currentPage = 0;
   final List<Widget> _screens = [
     const HomeScreen(),
-    const MomoScreen(),
+    const SendScreen(),
     const TransactionScreen(),
     const ScheduleScreen(),
   ];
